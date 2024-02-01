@@ -4353,7 +4353,7 @@
     (property "Value" "Crystal" (at 21.59 71.12 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Crystal:Crystal_AT310_D3.0mm_L10.0mm_Horizontal" (at 31.75 71.12 0)
+    (property "Footprint" "Crystal:Crystal_C38-LF_D3.0mm_L8.0mm_Horizontal_1EP_style1" (at 31.75 71.12 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 31.75 71.12 0)
