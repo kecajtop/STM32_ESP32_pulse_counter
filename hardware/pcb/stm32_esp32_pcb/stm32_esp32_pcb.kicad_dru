@@ -1,0 +1,16 @@
+(version 1)
+(rule "Clearance zone to board-edge"
+  (constraint edge_clearance (min 0.3mm))
+  (condition "A.Type =='Zone' && A.Name =='GND_ZONE' "))
+(rule "Clearance zone to board-edge"
+  (constraint edge_clearance (min 0.3mm))
+  (condition "A.Type =='Zone' && A.Name =='VBUS_ZONE' "))
+(rule "Clearance zone to board-edge"
+  (constraint edge_clearance (min 0.3mm))
+  (condition "A.Type =='Zone' && A.Name =='B+_ZONE' "))
+(rule "Clearance zone to board-edge"
+  (constraint edge_clearance (min 0.3mm))
+  (condition "A.Type =='Zone' && A.Name =='B-_ZONE' "))
+(rule "Clearance zone to board-edge"
+  (constraint edge_clearance (min 0.3mm))
+  (condition "A.Type =='Zone' && A.Name =='+3V3_ZONE' "))
